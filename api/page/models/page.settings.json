@@ -12,13 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "shortName": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
     "slug": {
       "type": "uid",
       "required": false,
       "targetField": "shortName"
     },
-    "shortName": {
-      "type": "string",
+    "status": {
+      "type": "enumeration",
+      "enum": ["published", "draft"],
+      "default": "draft",
       "required": true,
       "pluginOptions": {}
     },
@@ -45,16 +52,6 @@
         "sections.image",
         "sections.dynamic-content"
       ],
-      "pluginOptions": {}
-    },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "published",
-        "draft"
-      ],
-      "default": "draft",
-      "required": true,
       "pluginOptions": {}
     }
   }

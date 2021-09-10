@@ -4,7 +4,7 @@
   "version": "0.3.7",
   "description": "A Strapi application for Claudia",
   "scripts": {
-    "dev": "strapi develop",
+    "dev": "doppler run strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"

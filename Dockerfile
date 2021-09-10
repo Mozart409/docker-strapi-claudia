@@ -1,8 +1,8 @@
 FROM strapi/base
 
 LABEL authors="Amadeus Mader"
-LABEL name="docker-strapi-beammeup"
-LABEL description="Strapi CMS for beammeup"
+LABEL name="docker-strapi-claudia"
+LABEL description="Strapi CMS for Claudia"
 
 WORKDIR /app
 
